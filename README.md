@@ -55,10 +55,12 @@ These distractions break deep-work flow and lead to stress, context switching, a
 2. Install packages  
 3. Run the development server  
 
-```bash
+``` bash
 cd frontend
 npm install
 npm run dev
+```
+
 
 ### Backend (FastAPI)
 1. Go to the backend folder  
@@ -76,6 +78,7 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
 ---
 
@@ -83,6 +86,7 @@ uvicorn main:app --reload
 Create a `.env` file (or use `.env.example`) with:
 OPENAI_API_KEY=your_key_here
 FIREBASE_CONFIG={"apiKey": "...", "authDomain": "...", "projectId": "..."}
+
 
 ---
 
@@ -94,11 +98,31 @@ FIREBASE_CONFIG={"apiKey": "...", "authDomain": "...", "projectId": "..."}
 5. End session → Review summary & insights  
 
 
+---
 
+## 👥 Team — Impacteers
+- **Abhishek AJ** — Team Lead, Frontend, DevOps  
+- **Aman** — Frontend, QA  
+- **Aditya** — ML & Agent Logic  
+- **Ananya** — Backend & Integrations
 
+---
 
+## 🤝 Contributing
+We follow a simple workflow to keep development smooth:
 
+1. Create a new branch:  
+   `feature/<your-feature-name>`
+2. Commit changes with clear messages  
+3. Open a Pull Request to the `main` branch  
+4. Add a short description of the change  
+5. Include testing steps if applicable
 
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for more details.
 
 
 
