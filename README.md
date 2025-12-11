@@ -38,4 +38,14 @@ These distractions break deep-work flow and lead to stress, context switching, a
 
 **Frontend (React)** → **FastAPI Backend** → **Agent Engine (LLM + Rules)** → **Firestore (Realtime DB)**
 
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React + Tailwind  
+- **Backend:** FastAPI (Python)  
+- **Agent Engine:** OpenAI / Gemini + Rule-based reasoning  
+- **Database:** Firebase Firestore (Realtime)  
+- **Deployment:** Firebase Hosting + Google Cloud Run
+
+
 
