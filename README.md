@@ -30,4 +30,12 @@ These distractions break deep-work flow and lead to stress, context switching, a
   - Queue (review later)  
 - **Focus Session Summary** — Total focus time, allowed/muted/queued breakdown  
 - **Basic Deep-Work Analytics** — Top distractors, productivity pattern  
-- **User Preference Learning** — Agent adapts based on corrections  
+- **User Preference Learning** — Agent adapts based on corrections
+  
+---
+
+## 🏗️ Architecture
+
+**Frontend (React)** → **FastAPI Backend** → **Agent Engine (LLM + Rules)** → **Firestore (Realtime DB)**
+
+
