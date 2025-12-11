@@ -1,0 +1,20 @@
+# React / Node
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+
+# Python / FastAPI
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# Firebase
+.firebase/
+.firestore/
