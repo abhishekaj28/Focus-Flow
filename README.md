@@ -47,5 +47,61 @@ These distractions break deep-work flow and lead to stress, context switching, a
 - **Database:** Firebase Firestore (Realtime)  
 - **Deployment:** Firebase Hosting + Google Cloud Run
 
+---
+
+## 🔧 Local Development Setup
+### Frontend (React)
+1. Go to the frontend folder  
+2. Install packages  
+3. Run the development server  
+
+```bash
+cd frontend
+npm install
+npm run dev
+
+### Backend (FastAPI)
+1. Go to the backend folder  
+2. Create a virtual environment  
+3. Install Python packages  
+4. Run the API server  
+
+```bash
+cd backend
+python -m venv venv
+# macOS / Linux
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+---
+
+### Environment Variables
+Create a `.env` file (or use `.env.example`) with:
+OPENAI_API_KEY=your_key_here
+FIREBASE_CONFIG={"apiKey": "...", "authDomain": "...", "projectId": "..."}
+
+---
+
+### Running the Demo
+1. Start both the frontend and backend  
+2. Open the web UI  
+3. Click **Start Focus Mode**  
+4. Use the Notification Simulator to send test notifications  
+5. End session → Review summary & insights  
+
+
+
+
+
+
+
+
+
+
+
 
 
